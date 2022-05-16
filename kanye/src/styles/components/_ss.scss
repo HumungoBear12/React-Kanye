@@ -1,0 +1,80 @@
+.banner-container {
+  align-items: center;
+  background: #e0e0e0;
+  display: flex;
+  flex-direction: row;
+  height: 50rem;
+  justify-content: center;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  border-top: 1px solid $clr-red;
+  border-bottom: 1px solid $clr-red;
+
+  @media screen and (max-width: 800px) {
+    flex-direction: column;
+
+    .banner {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  &:hover {
+    .banner {
+      opacity: 0.5;
+
+      &:hover {
+        box-shadow: 0px 0px 10px 6px black;
+        flex: 4 1;
+        font-size: 20pt;
+        opacity: 1;
+
+        .banner-name {
+          flex: 0 0 60px;
+        }
+      }
+    }
+  }
+
+  .banner {
+    background: none 50%;
+    background-size: cover;
+    box-shadow: 0 0 0 0 black;
+    display: flex;
+    flex: 1 1;
+    flex-direction: column;
+    font-size: 10pt;
+    height: 100%;
+    justify-content: flex-end;
+    transition: 0.3s;
+
+    .banner-name {
+      align-items: center;
+      background-color: rgba(0, 0, 0, 0.5);
+      color: white;
+      display: flex;
+      flex: 1 1;
+      justify-content: center;
+      width: 100%;
+      transition: 0.3s;
+    }
+  }
+
+  //  BANNER IMAGES
+  //  ================
+  #Batman-banner {
+    background-image: url(https://www.teahub.io/photos/full/219-2194637_jay-z-kanye-west-otis-506241-data-src.jpg);
+  }
+
+  #Super-banner {
+    background-image: url(https://i1.sndcdn.com/artworks-y4zpOOFAaVRe4JES-0nWXpw-t500x500.jpg);
+  }
+
+  #Wonder-banner {
+    background-image: url(https://static.onecms.io/wp-content/uploads/sites/20/2016/09/kanye-cudi-1024.jpg);
+  }
+
+  #Flash-banner {
+    background-image: url(https://www.themarysue.com/wp-content/uploads/2018/12/Aquaman-featured.jpg);
+  }
+}
