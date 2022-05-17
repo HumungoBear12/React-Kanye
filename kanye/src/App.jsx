@@ -1,5 +1,8 @@
 import {React} from 'react'
 import Home from './Pages/Home'
+import About from './Pages/About'
+import Songs from './Pages/Songs'
+import History from './Pages/History'
 import Navbar from './Components/Navbar'
 import Footer from './Components/Footer'
 import {
@@ -17,10 +20,10 @@ const App = () => {
                             <p style={{height: '10vh'}} />
                             <Routes>
                                 <Route index element={<Home />} />
-                                {/* <Route path='Characters' element={(<Character/>)} />
-                                <Route path='Television' element={(<Television/>)} />
-                                <Route path='Movies' element={(<Movies/>)} />
-                                <Route path='VideoGames' element={(<VideoGames/>)} /> */}
+                                <Route path='about' element={(<About/>)} />
+                                <Route path='Television' element={(<Songs/>)} />
+                                <Route path='Movies' element={(<History/>)} />
+                                {/* <Route path='VideoGames' element={(</>)} /> */}
                             </Routes>
                         </div>
                     <Footer/>

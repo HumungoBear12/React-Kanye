@@ -2,8 +2,8 @@ import React from 'react'
 
 const Footer = () => {
     return (
-        <div class="Footer">
-        <div class="flex">
+        <div className="Footer">
+        <div className="flex">
             <ul>
                 <li>
                     <h4>Contact</h4>

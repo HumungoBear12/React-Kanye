@@ -7,6 +7,8 @@
   margin: 30px 160px 30px 160px;
   justify-content: space-between;
   align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
 }
 @media screen and (max-width: 1024px) {
   .container {
@@ -26,7 +28,7 @@ nav {
   font-size: 1rem;
   color: white;
   border-bottom: $clr-red 2px solid;
-  padding:10px;
+  padding: 10px;
 }
 
 nav .logo {
@@ -129,6 +131,8 @@ nav .icon-burger .line {
   }
   .container {
     margin: 30px 10px 30px 30px;
+    background-color: black;
+    opacity: 0.9;
   }
   nav .links {
     float: none;
@@ -137,7 +141,7 @@ nav .icon-burger .line {
     left: 100%;
     right: 0;
     bottom: 0;
-    z-index: 9;
+    // z-index: 9;
     width: auto;
     height: auto;
     flex-direction: column;
@@ -156,7 +160,7 @@ nav .icon-burger .line {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.5rem;
     color: white;
-    background-color: blueviolet;
+    background-color: $clr-red;
     border-radius: 100px;
     padding: 10px 40px 10px 40px;
   }

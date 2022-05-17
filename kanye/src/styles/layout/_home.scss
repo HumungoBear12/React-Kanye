@@ -1,49 +1,64 @@
-.home-container {
-  // background-image: url("https://i.pinimg.com/originals/54/ba/1a/54ba1aebeb5c5c92105f430009db074c.jpg");
-  background-size: cover;
-  width: 100%;
-  height: 90%;
-  .home-flex {
-    // margin-top: 5rem;
-    display: flex;
-    justify-content: space-around;
-    width: 65%;
+.char-Bats {
+  h2 {
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+  }
+  hr {
+    width: 50%;
     margin-left: auto;
     margin-right: auto;
-    .left-home {
-      width: 50%;
-      .img-responsive-home {
-        height: 30rem;
-        width: 25rem;
-        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-      }
+  }
+  p {
+    text-align: center;
+    color: white;
+  }
+
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  .char-bats-img {
+    width: 40rem;
+    img {
+      width: 80%;
+      height: 35rem;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      margin-top: -1rem;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
     }
-    .right-home {
-      width: 50%;
-      .home-title {
-        font-size: 2.5rem;
-        color: white;
-        text-align: center;
+  }
+  .char-bats-text {
+    width: 40rem;
+    .links {
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 2rem;
+      display: flex;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+      margin: 1rem;
+      padding: 1rem;
+      img {
+        height: 8rem;
+        width: 8rem;
+        // border-radius: 50%;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+          rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+          rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
       }
-      .home-line {
-        border-top: 1px solid red;
-      }
-      .home-img-flex {
-        padding: 20px;
-        display: Flex;
-        justify-content: space-around;
-        flex-wrap: wrap;
-        .img-home {
-          height: 7rem;
-          width: 7rem;
-        //   border-radius: 50%;
-          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-        }
-      }
-      .home-info {
-        margin-top: 1rem;
-        text-align: center;
-        color: white;
+      img:hover {
+        height: 9rem;
+        width: 9rem;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+          rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+          rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
       }
     }
   }
