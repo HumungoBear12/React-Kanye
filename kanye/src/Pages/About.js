@@ -39,15 +39,18 @@ const About = () => {
                     <img src="https://securea.mlb.com/assets/images/3/8/0/67725380/cuts/6eb6e8c494bd11e3a8551252a0dde04d_8_aq3il50w_x5fjftyn.jpg" alt="" />
                 </div>
             </div>
-            
+            <h2 className="kanyelovin">Kanyes Love Life</h2>
+            <hr />
+
             <div className="kanye-relationships">
+                
                 {girl.map((love)=>{
                     const {id,Name,Time,Img} = love;
                     return(
                         <div key={id}>
                             <img src={Img} alt={Name}/>
                             <h2>{Name}</h2>
-                            
+                            <p>{Time}</p>
                         </div>
                     )
                 })}
