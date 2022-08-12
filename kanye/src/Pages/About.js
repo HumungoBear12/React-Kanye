@@ -38,6 +38,9 @@ const About = () => {
                 <div className="colab-card">
                     <img src="https://securea.mlb.com/assets/images/3/8/0/67725380/cuts/6eb6e8c494bd11e3a8551252a0dde04d_8_aq3il50w_x5fjftyn.jpg" alt="" />
                 </div>
+                <div className="colab-card">
+                    <img src="https://www.nme.com/wp-content/uploads/2021/09/Kanye-West-and-Andre-3000@2000x1270.jpg" alt="" />
+                </div>
             </div>
             <h2 className="kanyelovin">Kanyes Love Life</h2>
             <hr />
@@ -45,18 +48,6 @@ const About = () => {
                 <img src="https://static.standard.co.uk/s3fs-public/thumbnails/image/2019/04/12/16/kimkardashianwest-kanyewest-4-12-19-044.jpg?width=1200&auto=webp&quality=75" alt="" />
                 <h2>Kanye and Kim Kardashian</h2>
                 <p>Kim Kardashian and Kanye West are undoubtedly one of the world's most influential and most powerful celebrity couples—although as of February 19, 2021, their 6-year marriage is coming to an end. Kim Kardashian officially filed for divorce from her husband and is seeking joint custody of their four children.But, despite calling it quits in 2021, their love story was quite eventful. From their envious Italian wedding to the birth of their four children, here is everything you need to know about Kim Kardashian and Kanye West's relationship—including all the details on their impending divorce</p>
-            </div>
-            <div className="kanye-relationships">
-                {girl.map((love)=>{
-                    const {id,Name,Time,Img} = love;
-                    return(
-                        <div key={id}>
-                            <img src={Img} alt={Name}/>
-                            <h2>{Name}</h2>
-                            <p>{Time}</p>
-                        </div>
-                    )
-                })}
             </div>
         </div>
     )
