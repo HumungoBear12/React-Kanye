@@ -9,26 +9,22 @@ const Navbar = () => {
             <div className="logo"><strong>Ye</strong></div>
             <ul className="links">
             <li className="list">
-                <a href=""><Link to='/'>Home</Link></a>
+                <Link to='/'>Home</Link>
                 <div className="home_underline"></div>
             </li>
             <li className="list">
-                <a href=""><Link to='/about'>About</Link></a>
+                <Link to='/about'>About</Link>
                 <div className="home_underline"></div>
             </li>
             <li className="list">
-                <a href=""><Link to='/songs'>Songs</Link></a>
+                <Link to='/songs'>Songs</Link>
                 <div className="home_underline"></div>
             </li>
-            <li className="list">
-                <a href="">
-                    <Link to='/history'>History</Link>
-                </a>
-                <div className="home_underline"></div>
-            </li>
+            <a href="https://www.youtube.com/channel/UCs6eXM7s8Vl5WcECcRHc2qQ">
             <button className="button">Album's</button>
+            </a>
             </ul>
-            <label for="nav-toggle" className="icon-burger">
+            <label htmlFor="nav-toggle" className="icon-burger">
             <div className="line"></div>
             <div className="line"></div>
             <div className="line"></div>
