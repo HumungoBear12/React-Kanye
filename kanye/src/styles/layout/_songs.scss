@@ -42,6 +42,17 @@
                         color: $clr-red;
                         font-size:1rem;
                     }  
+                    audio{
+                        border-radius: 0;
+                        background-color: white;
+                        box-shadow: rgb(0, 0, 0) 2px 2px 2px 2px;
+                        opacity: .8;
+                        width: 100%;
+                    }
+                    audio:hover{
+                        background-color: rgb(28, 28, 28);
+                        box-shadow: none;
+                    }
                 }
             }
         }
